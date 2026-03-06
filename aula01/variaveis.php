@@ -10,5 +10,5 @@
     echo "Ativo: $ativo <br>";
 
     $novoSalario = $salario * 1.10;
-    echo "<br>Novo salário com aumento de 10%: R$$salario";
+    echo "<br>Novo salário com aumento de 10%: R$$novoSalario";
 ?>
