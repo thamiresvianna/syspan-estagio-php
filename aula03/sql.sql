@@ -24,3 +24,6 @@ SELECT * FROM clientes WHERE nome LIKE '%ara%';
 UPDATE clientes SET telefone = '99978-9999' WHERE id = 5;
 
 DELETE FROM clientes WHERE id = 2;
+
+-- Bônus Projeto Final
+ALTER TABLE clientes ADD status ENUM('ATIVO', 'INATIVO') DEFAULT 'ATIVO';
